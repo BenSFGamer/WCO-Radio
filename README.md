@@ -1,2 +1,2 @@
 # WCO-Radio
-Online Radio Radio for WCO Community
+Online Radio of the WCO Community Center. 
