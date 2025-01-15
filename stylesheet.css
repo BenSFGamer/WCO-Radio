@@ -1,0 +1,74 @@
+body {
+  font-family: 'VT323', monospace;
+  background-color: #181818;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #3cb371; /* Match your button color or choose another */
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-top: 10px; /* Adjust spacing as needed */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #3cb371;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #349870;
+}
+
+.radio-player {
+  margin-top: 30px;
+}
+
+.radio-player audio {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.radio-player .controls {
+  display: flex;
+  justify-content: center;
+}
+
+.radio-player .controls button {
+  margin: 0 10px;
+}
